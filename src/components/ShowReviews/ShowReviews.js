@@ -7,15 +7,23 @@ const ShowReviews = (props) => {
     <div class="col">
       <div class="p-3 border bg-light">
         <div class="card h-100 w-100" style={{ width: "18rem" }}>
-          <img src={img} class="card-img-top" alt="..." />
           <div class="card-body">
-            <p class="card-text">
-              <b>Comment : </b> {description}
-            </p>
-            <p>
-              <b>Author Name : </b>
-              {author}
-            </p>
+            <h5 class="card-title">Comment</h5>
+            <p class="card-text">{description}</p>
+            <div className="d-flex align-item-center justify-content-between">
+              <p className="mt-4">
+                <small>
+                  <b>Author : </b>
+                </small>
+                {author}
+              </p>
+              <img
+                src={img}
+                width="80px"
+                class="img-thumbnail border-0 rounded"
+                alt="..."
+              />
+            </div>
           </div>
         </div>
       </div>
