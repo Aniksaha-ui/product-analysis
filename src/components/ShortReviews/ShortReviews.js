@@ -11,7 +11,7 @@ const ShortReviews = () => {
   };
   return (
     <div className="container mt-5">
-      <h1>Review(3)</h1>
+      <h1>Customer Review(3)</h1>
       <div className="container mt-5">
         <div className="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
           {reviews.slice(0, 3).map((review) => (
