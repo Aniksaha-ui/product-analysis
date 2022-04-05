@@ -12,10 +12,10 @@ const ShortReviews = () => {
   return (
     <div className="container mt-5">
       <h1>Review(3)</h1>
-      <div class="container mt-5">
-        <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
+      <div className="container mt-5">
+        <div className="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
           {reviews.slice(0, 3).map((review) => (
-            <ShowReviews review={review} />
+            <ShowReviews review={review} key={review.id} />
           ))}
         </div>
       </div>

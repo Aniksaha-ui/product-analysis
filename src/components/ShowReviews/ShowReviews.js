@@ -1,15 +1,15 @@
 import React from "react";
 
 const ShowReviews = (props) => {
-  console.log(props.review);
+  // console.log(props.review);
   const { rating, author, description, img } = props.review;
   return (
-    <div class="col">
-      <div class="p-3 border bg-light">
-        <div class="card h-100 w-100" style={{ width: "18rem" }}>
-          <div class="card-body">
-            <h5 class="card-title">Comment</h5>
-            <p class="card-text">{description}</p>
+    <div className="col">
+      <div className="p-3 border bg-light">
+        <div className="card h-100 w-100" style={{ width: "18rem" }}>
+          <div className="card-body">
+            <h5 className="card-title">Comment</h5>
+            <p className="card-text">{description}</p>
 
             <div className="d-flex align-item-center justify-content-between">
               <p className="mt-4">
@@ -21,11 +21,11 @@ const ShowReviews = (props) => {
               <img
                 src={img}
                 width="80px"
-                class="img-thumbnail border-0 rounded"
+                className="img-thumbnail border-0 rounded"
                 alt="..."
               />
             </div>
-            <p class="card-text">
+            <p className="card-text">
               <b>Rating :</b> {rating} / 10
             </p>
           </div>

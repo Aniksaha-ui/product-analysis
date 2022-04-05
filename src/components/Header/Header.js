@@ -5,9 +5,10 @@ const Header = () => {
   return (
     <div className="container mt-5">
       <h3 className="text-primary">BMW X3 Reviews</h3>
-      <div className="row d-flex align-items-center justify-content-center mt-4">
+      <div className="row d-flex align-items-center justify-content-center mt-5">
         <div className="col-lg-7 col-md-7 col-12">
           <p className="header-text">
+            <h3 className="text-primary mb-4">BMW X3</h3>
             <b>Market introduction:</b> <br />
             The X3 facelift was launched in India on 20 January, 2022.
             <br />
