@@ -3,6 +3,7 @@ import {
   Area,
   AreaChart,
   CartesianGrid,
+  Legend,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -27,6 +28,7 @@ const InvestmentVsRevenue = ({ data }) => {
         <XAxis dataKey="month" />
         <YAxis />
         <Tooltip />
+        <Legend />
         <Area
           type="monotone"
           dataKey="investment"
