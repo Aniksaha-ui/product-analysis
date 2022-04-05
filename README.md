@@ -2,7 +2,7 @@
 
 github link: [https://github.com/programming-hero-web-course-4/product-analysis-website-Aniksaha-ui](https://github.com/programming-hero-web-course-4/product-analysis-website-Aniksaha-ui)
 
-Live link: [https://computer-finder-4519.netlify.app/](https://computer-finder-4519.netlify.app/)
+Live link: [https://bmw-x3-review.netlify.app/](https://bmw-x3-review.netlify.app/)
 
 ## What done in this project
 
