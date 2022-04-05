@@ -1,11 +1,11 @@
 import React from "react";
-
+import "./ShowReviews.css";
 const ShowReviews = (props) => {
   // console.log(props.review);
   const { rating, author, description, img } = props.review;
   return (
     <div className="col">
-      <div className="p-3 border bg-dark">
+      <div className="p-3 border bg-sky-600">
         <div className="card h-100 w-100" style={{ width: "18rem" }}>
           <div className="card-body">
             <h5 className="card-title">Comment</h5>

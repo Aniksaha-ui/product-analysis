@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="container mt-5">
+    <div className="container w-50 mx-auto mt-5">
       <div className="row g-4">
         <div className="col-12">
           <div className="card">
