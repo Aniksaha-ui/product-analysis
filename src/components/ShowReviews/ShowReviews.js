@@ -2,7 +2,7 @@ import React from "react";
 
 const ShowReviews = (props) => {
   console.log(props.review);
-  const { author, description, img } = props.review;
+  const { rating, author, description, img } = props.review;
   return (
     <div class="col">
       <div class="p-3 border bg-light">
@@ -10,6 +10,7 @@ const ShowReviews = (props) => {
           <div class="card-body">
             <h5 class="card-title">Comment</h5>
             <p class="card-text">{description}</p>
+
             <div className="d-flex align-item-center justify-content-between">
               <p className="mt-4">
                 <small>
@@ -24,6 +25,9 @@ const ShowReviews = (props) => {
                 alt="..."
               />
             </div>
+            <p class="card-text">
+              <b>Rating :</b> {rating} / 10
+            </p>
           </div>
         </div>
       </div>
