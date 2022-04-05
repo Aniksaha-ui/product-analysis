@@ -5,8 +5,9 @@ github link: [https://github.com/programming-hero-web-course-4/product-analysis-
 Live link: [https://bmw-x3-review.netlify.app/](https://bmw-x3-review.netlify.app/)
 
 ## What done in this project
+    There are 4 pages : Home , Review , Dashboard ,Blog
 
-- There are 4 pages : Home , Review , Dashboard ,Blog
 - In Home page there have some information of the BMW X3 Car and show some reviews
-- In Review Page,all reviews are display.In Dashboard page,there are some chart to analysis their monthly sell and also investment vs revenue.
-- In Blog,there are 2 common questions answer
+- In Review Page,all reviews are display.
+- In Dashboard page,there are some chart to analysis their monthly sell and also investment vs revenue.
+- In Blog,there are 2 common questions answer.
