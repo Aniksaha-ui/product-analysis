@@ -26,7 +26,7 @@ const ShowReviews = (props) => {
               />
             </div>
             <p className="card-text">
-              <b>Rating :</b> {rating} / 10
+              <b>Rating :</b> {rating} / 5
             </p>
           </div>
         </div>
