@@ -1,6 +1,9 @@
 import React from "react";
+import { BarChart } from "recharts";
 import useChart from "../../Hooks/useChart";
 import Investment from "../Charts/Investment";
+import InvestmentBarchart from "../Charts/InvestmentBarchart";
+import InvestmentVsRevenue from "../Charts/InvestmentVsRevenue";
 import MonthlySell from "../Charts/MonthlySell";
 
 const Dashboard = () => {
@@ -14,6 +17,16 @@ const Dashboard = () => {
         </div>
         <div class="col">
           <Investment data={data} />
+        </div>
+
+        <div className="col">
+          <h3>Investment vs revenue</h3>
+          <InvestmentVsRevenue data={data} />
+        </div>
+
+        <div className="col">
+          <h3>Investment vs revenue</h3>
+          <InvestmentBarchart data={data} />
         </div>
       </div>
     </div>
